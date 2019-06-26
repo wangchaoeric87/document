@@ -1,5 +1,4 @@
 # 酷镜接口文档
-![Mou icon](http://www.cools.ai/oramirror_cloud/img/blackLogo.png)
 [TOC]
 >此文档为酷镜营养师提供的根据用户体征、禁忌、疾病等体征信息计算的一日三餐菜谱推荐的解决方案
 
