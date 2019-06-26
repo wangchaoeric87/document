@@ -720,8 +720,8 @@ POST
 #### 功能说明：
 根据一段文本文字返回文本中的`食物`与对应`重量`
 #### 接口地址：
-* `UClould`：http://123.59.140.18/oramirror_cloud/api/analysisData.do?app_key=app的key
-* `阿里云`: http://60.205.107.6/oramirror_cloud/api/analysisData.do?app_key=APP的key
+
+
 
 #### 请求参数：
 {“name”:“我吃了100克鱼香肉丝”}
