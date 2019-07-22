@@ -455,7 +455,7 @@ POST
         .....
     },
     "message": "成功",
-    "type":0,
+    "type":2,
     "status": "ok"
 }
 
@@ -480,7 +480,7 @@ POST
 |data|data|数据集合|
 |message|string|返回成功或失败的信息|
 |status|string|状态|
-|type|int|0:推荐 1：记录（本次语义分析后得出的语义类型）|
+|type|int|2:推荐 1：记录（本次语义分析后得出的语义类型）|
 
 
 
@@ -932,7 +932,7 @@ POST
 |data|data|数据集合|
 |message|string|返回成功或失败的信息|
 |status|string|状态|
-|type|int|0:推荐 1：记录（本次语义分析后得出的语义类型）|
+|type|int|2:推荐 1：记录（本次语义分析后得出的语义类型）|
 
 ##### data
 
