@@ -37,425 +37,992 @@ POST
 #### 返回值：
 ```
 {
-    "data": {
-        "2019-07-20": {
-            "breakfast": [
-                [
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fce3d9057c393773ef.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=eBMKJU5eKiVVMHznkvW%2BhiceS98%3D",
-                        "name": "香菇瘦肉粥",
-                        "weight": 200,
-                        "ingredients": [
+    "data": 
+    
+        [
+            "day": 5,
+            "meal": [
+                {
+                    "type": "breakfast",
+                    "data": [
+                        [
                             {
-                                "value": 58.1,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fae3d9057c3937719c.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=OYc9d9i6NVjIt5cI54w%2BMkLnWMw%3D",
+                                "name": "菜粥",
+                                "weight": 200,
+                                "ingredients": [
+                                    {
+                                        "value": 120,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 2.88,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.38,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 24.68,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.66,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 113.79,
+                                        "name": "vitaminA",
+                                        "desc": "维生素A",
+                                        "unit": "微克"
+                                    },
+                                    {
+                                        "value": 343.56,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2fe5fae3d9057c3937719c"
                             },
                             {
-                                "value": 2.18,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 3.86,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 4.2,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 1.11,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 750.09,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 0.3,
-                                "name": "fe",
-                                "desc": "铁",
-                                "unit": "毫克"
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fde3d9057c39377441.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=wv3rU7407vz7vSX1XxEsJ581WYI%3D",
+                                "name": "桂花红糖小元宵",
+                                "weight": 150,
+                                "ingredients": [
+                                    {
+                                        "value": 510,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 4.35,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 12.94,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 96.42,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.88,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 27.46,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 110.53,
+                                        "name": "ca",
+                                        "desc": "钙",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2fe5fde3d9057c39377441"
                             }
-                        ],
-                        "id": "5d2fe5fce3d9057c393773ef"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5f9e3d9057c393770fa.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=Oid8FdCEd0rqjDkvcV4PGG55%2Fik%3D",
-                        "name": "泡菜煎饼",
-                        "weight": 150,
-                        "ingredients": [
+                        ]
+                    ]
+                },
+                {
+                    "type": "lunch",
+                    "data": [
+                        [
                             {
-                                "value": 170.12,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d740b4cae020770863966.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=lOQFsVMTW3PHDu3gOCVf7thJtaI%3D",
+                                "name": "韭菜花炒猪肉",
+                                "weight": 70,
+                                "ingredients": [
+                                    {
+                                        "value": 150,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 5,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 12.53,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 4.42,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.27,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.05,
+                                        "name": "vitaminB2",
+                                        "desc": "维生素B2",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 1243.49,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d740b4cae020770863966"
                             },
                             {
-                                "value": 7.85,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73a94cae020770862ba0.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=7qRb9rGDlywK2eFfK007g%2FK531o%3D",
+                                "name": "黑木耳炒地瓜叶",
+                                "weight": 90,
+                                "ingredients": [
+                                    {
+                                        "value": 160,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 1.15,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 15.17,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 6.41,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.12,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 5904.2,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 29.57,
+                                        "name": "ca",
+                                        "desc": "钙",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d73a94cae020770862ba0"
                             },
                             {
-                                "value": 5.2,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 25.37,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 2.52,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.17,
-                                "name": "vitaminB1",
-                                "desc": "维生素B1",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 38.31,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fae3d9057c39377187.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=83oo0ytby06GjDuLEurkePpxCm4%3D",
+                                "name": "低糖小贝果",
+                                "weight": 150,
+                                "ingredients": [
+                                    {
+                                        "value": 260,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 8.45,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 2.01,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 51.4,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.31,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.37,
+                                        "name": "niacin",
+                                        "desc": "烟酸",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 598.19,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2fe5fae3d9057c39377187"
                             }
-                        ],
-                        "id": "5d2fe5f9e3d9057c393770fa"
-                    }
-                ]
+                        ]
+                    ]
+                },
+                {
+                    "type": "dinner",
+                    "data": [
+                        [
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73274cae0207708618d1.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=dmEmkasDY5cYHjwdElNirpTL5oY%3D",
+                                "name": "淡奶油蛋糕",
+                                "weight": 60,
+                                "ingredients": [
+                                    {
+                                        "value": 150,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 4.45,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 9.17,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 12.36,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.27,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.06,
+                                        "name": "vitaminB1",
+                                        "desc": "维生素B1",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 33.74,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d73274cae0207708618d1"
+                            },
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73564cae020770861f8f.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=qny%2FNwoX7Sdms2YaW40qS9%2BEHok%3D",
+                                "name": "湖南农家小炒肉",
+                                "weight": 50,
+                                "ingredients": [
+                                    {
+                                        "value": 170,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 5.63,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 15.49,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 2.19,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.18,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.45,
+                                        "name": "niacin",
+                                        "desc": "烟酸",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 380.86,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d73564cae020770861f8f"
+                            },
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73724cae0207708623ca.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=aj8MqIB47RXCZccXpVeK0cIusOo%3D",
+                                "name": "紫薯西米糕",
+                                "weight": 150,
+                                "ingredients": [
+                                    {
+                                        "value": 270,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 5.48,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.23,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 59.36,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.41,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.2,
+                                        "name": "niacin",
+                                        "desc": "烟酸",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 19.13,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d73724cae0207708623ca"
+                            }
+                        ]
+                    ]
+                }
             ],
-            "lunch": [
-                [
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73054cae0207708612d1.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=0YECvr9VWgYKo8NOuGd9PNBPRCA%3D",
-                        "name": "素卤咸豆花",
-                        "weight": 215.55770331898648,
-                        "ingredients": [
-                            {
-                                "value": 198.83,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 14.37,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 8.97,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 19.05,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 3.98,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 432.73,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 15.64,
-                                "name": "fe",
-                                "desc": "铁",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d73054cae0207708612d1"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73974cae02077086288f.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=r%2B7CbLNpNG%2FjZcUjI7sAERdhL9c%3D",
-                        "name": "干豆腐炒金针菇",
-                        "weight": 49.976883639035066,
-                        "ingredients": [
-                            {
-                                "value": 193.79,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 23.06,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 10.23,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 6.03,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 3.65,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.12,
-                                "name": "vitaminC",
-                                "desc": "维生素C",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 504.16,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d73974cae02077086288f"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73414cae020770861c96.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=tykURvq8dnW5mN6Oj%2Bs1ZA5R2ZI%3D",
-                        "name": "枣香杂面发糕",
-                        "weight": 150,
-                        "ingredients": [
-                            {
-                                "value": 347.69,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 12.49,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 2.02,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 74.23,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 4.49,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 39.44,
-                                "name": "vitaminC",
-                                "desc": "维生素C",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 2.79,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d73414cae020770861c96"
-                    }
-                ]
-            ],
-            "dinner": [
-                [
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73854cae0207708625f0.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=TldXGDW3D9niqxUK%2FkEtUbaYmLs%3D",
-                        "name": "鸡爪炖土豆",
-                        "weight": 178.60156988879066,
-                        "ingredients": [
-                            {
-                                "value": 251.29,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 12.88,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 12.96,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 22.83,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 3.42,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 35.27,
-                                "name": "vitaminC",
-                                "desc": "维生素C",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 3401.89,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d73854cae0207708625f0"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d742a4cae020770863f3f.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=CZ4GmlbqeaqJnO7TDGcV34X%2B77I%3D",
-                        "name": "白菜炒土豆片",
-                        "weight": 418.72299521129094,
-                        "ingredients": [
-                            {
-                                "value": 209.63,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 8.18,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.88,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 45.7,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 4.33,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 71.05,
-                                "name": "vitaminC",
-                                "desc": "维生素C",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 113.65,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d742a4cae020770863f3f"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73d74cae020770863224.jpg?Expires=1563525258&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=5%2Fx9xAERsYzbT95tvFNBH1Ji0HY%3D",
-                        "name": "糯米红枣新吃法",
-                        "weight": 150,
-                        "ingredients": [
-                            {
-                                "value": 292.09,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 4.58,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.53,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 67.54,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.56,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 5.66,
-                                "name": "vitaminA",
-                                "desc": "维生素A",
-                                "unit": "微克"
-                            },
-                            {
-                                "value": 1.69,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d73d74cae020770863224"
-                    }
-                ]
-            ]
+            "type": "normal"
         },
-        .....
-    },
+        {
+            "day": 6,
+            "meal": [
+                {
+                    "type": "breakfast",
+                    "data": [
+                        [
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fde3d9057c39377455.jpg?Expires=1563960813&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=jEnI%2FFHVSrtS4zXKzECB6CgXMsM%3D",
+                                "name": "小白菜包子",
+                                "weight": 150,
+                                "ingredients": [
+                                    {
+                                        "value": 180,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 10.55,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.41,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 33.54,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 3.35,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 7.97,
+                                        "name": "vitaminC",
+                                        "desc": "维生素C",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 1261.9,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2fe5fde3d9057c39377455"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "type": "lunch",
+                    "data": [
+                        [
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73944cae020770862802.jpg?Expires=1563960813&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=X8pBMWmrJ63eZcDgj5c7DiGw%2B5c%3D",
+                                "name": "胡萝卜烧口蘑",
+                                "weight": 70,
+                                "ingredients": [
+                                    {
+                                        "value": 100,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 11.25,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 14.64,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 5.98,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 12.43,
+                                        "name": "niacin",
+                                        "desc": "烟酸",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 465.86,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d73944cae020770862802"
+                            },
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d74214cae020770863d70.jpg?Expires=1563960813&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=2oUo6OKSMQbYiFehyoGHTJMZgfc%3D",
+                                "name": "南瓜烧土豆",
+                                "weight": 270,
+                                "ingredients": [
+                                    {
+                                        "value": 90,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 3.17,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.38,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 21.4,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 2.53,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1816.67,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 1.25,
+                                        "name": "fe",
+                                        "desc": "铁",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d74214cae020770863d70"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "type": "dinner",
+                    "data": [
+                        [
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d74254cae020770863e49.jpg?Expires=1563960813&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=TUMxGQ6BGyfRI%2B55rPJObUHXxDk%3D",
+                                "name": "西红柿炒辣椒",
+                                "weight": 420,
+                                "ingredients": [
+                                    {
+                                        "value": 100,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 3.83,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.77,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 22.88,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 5.45,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.27,
+                                        "name": "vitaminE",
+                                        "desc": "维生素E",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 25.29,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d74254cae020770863e49"
+                            },
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d741a4cae020770863c3a.jpg?Expires=1563960813&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=KlhlFB8HETiOx6OvfiEi%2FiCcRrg%3D",
+                                "name": "西红柿蒸猪肝",
+                                "weight": 160,
+                                "ingredients": [
+                                    {
+                                        "value": 100,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 8.11,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 4.2,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 9.85,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 2.51,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 4.21,
+                                        "name": "niacin",
+                                        "desc": "烟酸",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 463.49,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d741a4cae020770863c3a"
+                            }
+                        ]
+                    ]
+                }
+            ],
+            "type": "light"
+        },
+        {
+            "day": 7,
+            "meal": [
+                {
+                    "type": "breakfast",
+                    "data": [
+                        [
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fde3d9057c3937742d.jpg?Expires=1563960807&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=ry0moxt9SasXsu7hsAd43p9opX4%3D",
+                                "name": "蒜香瓜条",
+                                "weight": 150,
+                                "ingredients": [
+                                    {
+                                        "value": 150,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 3.96,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 11.69,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 9.69,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 4.24,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 15.86,
+                                        "name": "vitaminA",
+                                        "desc": "维生素A",
+                                        "unit": "微克"
+                                    },
+                                    {
+                                        "value": 2232.61,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2fe5fde3d9057c3937742d"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "type": "lunch",
+                    "data": [
+                        [
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d74314cae0207708640a9.jpg?Expires=1563960807&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=SpTzYwf7eN7P888JRidmwJlM3bA%3D",
+                                "name": "茭白炒鱿鱼",
+                                "weight": 450,
+                                "ingredients": [
+                                    {
+                                        "value": 90,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 5.35,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.72,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 20.01,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 6.25,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 118.13,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 17.86,
+                                        "name": "ca",
+                                        "desc": "钙",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d74314cae0207708640a9"
+                            },
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d742b4cae020770863f6e.jpg?Expires=1563960807&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=fLeSIQSbKDMkPUCo%2FOM2oQDaRoU%3D",
+                                "name": "胡萝卜炒木耳",
+                                "weight": 110,
+                                "ingredients": [
+                                    {
+                                        "value": 110,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 1.38,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 9.35,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 6.78,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 2.32,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.29,
+                                        "name": "niacin",
+                                        "desc": "烟酸",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 4197.41,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d742b4cae020770863f6e"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "type": "dinner",
+                    "data": [
+                        [
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d74244cae020770863e11.jpg?Expires=1563960807&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=s%2FIGjmcslksQpj0OnZUMI1TynBY%3D",
+                                "name": "金针菇炒西红柿",
+                                "weight": 210,
+                                "ingredients": [
+                                    {
+                                        "value": 100,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 10.93,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.65,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 14.3,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 4.47,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 3951.16,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 22.28,
+                                        "name": "ca",
+                                        "desc": "钙",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d74244cae020770863e11"
+                            },
+                            {
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73ad4cae020770862c76.jpg?Expires=1563960807&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=nXdSlvwHFza72IbcZ0i9ZlIa5jc%3D",
+                                "name": "韭菜炒土豆丝",
+                                "weight": 100,
+                                "ingredients": [
+                                    {
+                                        "value": 100,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 7.23,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.47,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 18.4,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.92,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.02,
+                                        "name": "vitaminB2",
+                                        "desc": "维生素B2",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 4303.67,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d73ad4cae020770862c76"
+                            }
+                        ]
+                    ]
+                }
+            ],
+            "type": "light"
+        }
+    ],
     "message": "成功",
-    "type":2,
+    "type": 2,
     "status": "ok"
 }
 
@@ -488,15 +1055,17 @@ POST
 
 | 字段名称   | 类型 | 说明  |
 | ------- | --- | :---:  |
-|time|结构2|一天当中三餐的集合|
+|day|String|时间:当类型为推荐时，day会返回序号，当类型为记录时，day返回的是日期|
+|meal|结构2|一天当中三餐的集合|
+|type|String|类型：(断食light、正常normal)|
 
 ##### 结构2
 
 | 字段名称   | 类型 | 说明  |
 | ------- | --- | :---:  |
-|breakfast|结构3|早餐|
-|lunch|结构3|午餐|
-|dinner|结构3|晚餐|
+|type|string|三餐标示，（早、 中、 午餐）|
+|data|结构3|食谱集合|
+
 
 
 ##### 结构3
@@ -542,372 +1111,181 @@ POST
 #### 返回值：
 ```
 {
-    "data": {
-        "2019-07-19": {
-            "breakfast": [
-                [
-                    {
-                        "image": null,
-                        "name": "粥",
-                        "ingredients": [
+    "data": [
+        {
+            "meal": [
+                {
+                    "type": "breakfast",
+                    "data": [
+                        [
                             {
-                                "value": 141,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
+                                "image": null,
+                                "name": "粥",
+                                "ingredients": [
+                                    {
+                                        "value": 160,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 3.85,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.05,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 34.65,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.35,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 9.8,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 0,
+                                        "name": "cholesterol",
+                                        "desc": "胆固醇",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "weight": 350,
+                                "id": "5b8fbb67f99ffbe3ae5e22fd"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "type": "lunch",
+                    "data": [
+                        [
                             {
-                                "value": 3.3,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.9,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 29.7,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.3,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 8.4,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 0.3,
-                                "name": "fe",
-                                "desc": "铁",
-                                "unit": "毫克"
+                                "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d730e4cae02077086146e.jpg?Expires=1563963972&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=zJchTrj%2BbNIP5iPDGg3CA66%2FVIQ%3D",
+                                "name": "鱼香肉丝",
+                                "weight": 200,
+                                "ingredients": [
+                                    {
+                                        "value": 550,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 16.79,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 45.58,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 18.44,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 0.58,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.62,
+                                        "name": "vitaminC",
+                                        "desc": "维生素C",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 809.1,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "id": "5d2d730e4cae02077086146e"
                             }
                         ],
-                        "weight": 300,
-                        "id": "5b8fbb67f99ffbe3ae5e22fd"
-                    }
-                ]
+                        [
+                            {
+                                "image": "http://app.oramiro.com:8082/oramirror_cloud/group/114997/1464266101204.jpg",
+                                "name": "大米饭",
+                                "ingredients": [
+                                    {
+                                        "value": 410,
+                                        "name": "calorie",
+                                        "desc": "卡路里",
+                                        "unit": "千卡"
+                                    },
+                                    {
+                                        "value": 9.1,
+                                        "name": "protein",
+                                        "desc": "蛋白质",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.05,
+                                        "name": "fat",
+                                        "desc": "脂肪",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 90.65,
+                                        "name": "carbohydrate",
+                                        "desc": "碳水化合物",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 1.05,
+                                        "name": "dietaryFiber",
+                                        "desc": "纤维素",
+                                        "unit": "克"
+                                    },
+                                    {
+                                        "value": 8.75,
+                                        "name": "na",
+                                        "desc": "钠",
+                                        "unit": "毫克"
+                                    },
+                                    {
+                                        "value": 4.55,
+                                        "name": "fe",
+                                        "desc": "铁",
+                                        "unit": "毫克"
+                                    }
+                                ],
+                                "weight": 350,
+                                "id": "5b8fbb67f99ffbe3ae5e22f9"
+                            }
+                        ]
+                    ]
+                }
             ],
-            "lunch": [
-                [
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d730e4cae02077086146e.jpg?Expires=1563525497&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=PQu9cATIS994nPcxF1M6u141bE4%3D",
-                        "name": "鱼香肉丝",
-                        "weight": 200,
-                        "ingredients": [
-                            {
-                                "value": 549.78,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 16.79,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 45.58,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 18.44,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.58,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.26,
-                                "name": "vitaminB1",
-                                "desc": "维生素B1",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 809.1,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d730e4cae02077086146e"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d736a4cae020770862285.jpg?Expires=1563525497&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=0in2CqflLgq%2FRzyLq0IcBHshlD0%3D",
-                        "name": "鱼香肉丝",
-                        "weight": 200,
-                        "ingredients": [
-                            {
-                                "value": 367.57,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 13.39,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 25.55,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 26.61,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 6.38,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 2399.39,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 233.64,
-                                "name": "ca",
-                                "desc": "钙",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d736a4cae020770862285"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73c44cae020770862fba.jpg?Expires=1563525497&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=I9mgj%2B%2BMlPZpNMYt6sgNomIkBWQ%3D",
-                        "name": "鱼香肉丝",
-                        "weight": 200,
-                        "ingredients": [
-                            {
-                                "value": 205.05,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 25.41,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 7.68,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 9.95,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 1.72,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 483.96,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 4.64,
-                                "name": "fe",
-                                "desc": "铁",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d73c44cae020770862fba"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d740c4cae020770863996.jpg?Expires=1563525497&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=ss5lBuJo%2FzM5UYv6183rfZ2df%2Bs%3D",
-                        "name": "-->鱼香肉丝烧土豆",
-                        "weight": 200,
-                        "ingredients": [
-                            {
-                                "value": 209.94,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 21.48,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.51,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 31.27,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 2.11,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 2.29,
-                                "name": "vitaminE",
-                                "desc": "维生素E",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 4018.6,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d740c4cae020770863996"
-                    },
-                    {
-                        "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d73084cae020770861346.jpg?Expires=1563525497&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=ncA4RkusS4qAgmonq7db8YsJhnk%3D",
-                        "name": "鱼香鸡丝",
-                        "weight": 200,
-                        "ingredients": [
-                            {
-                                "value": 167.29,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 18.51,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 3.48,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 17.06,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 1.92,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 320.22,
-                                "name": "vitaminA",
-                                "desc": "维生素A",
-                                "unit": "微克"
-                            },
-                            {
-                                "value": 1040.19,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "id": "5d2d73084cae020770861346"
-                    }
-                ],
-                [
-                    {
-                        "image": "http://app.oramiro.com:8082/oramirror_cloud/group/114997/1464266101204.jpg",
-                        "name": "米饭",
-                        "ingredients": [
-                            {
-                                "value": 348,
-                                "name": "calorie",
-                                "desc": "卡路里",
-                                "unit": "千卡"
-                            },
-                            {
-                                "value": 7.8,
-                                "name": "protein",
-                                "desc": "蛋白质",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.9,
-                                "name": "fat",
-                                "desc": "脂肪",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 77.7,
-                                "name": "carbohydrate",
-                                "desc": "碳水化合物",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.9,
-                                "name": "dietaryFiber",
-                                "desc": "纤维素",
-                                "unit": "克"
-                            },
-                            {
-                                "value": 0.06,
-                                "name": "vitaminB1",
-                                "desc": "维生素B1",
-                                "unit": "毫克"
-                            },
-                            {
-                                "value": 7.5,
-                                "name": "na",
-                                "desc": "钠",
-                                "unit": "毫克"
-                            }
-                        ],
-                        "weight": 300,
-                        "id": "5b8fbb67f99ffbe3ae5e22f9"
-                    }
-                ]
-            ]
+            "day": "2019-07-24"
         }
-    },
+    ],
     "message": "成功",
-    "type":0,
+    "type": 1,
     "status": "ok"
 }
 
@@ -934,19 +1312,23 @@ POST
 |status|string|状态|
 |type|int|2:推荐 1：记录（本次语义分析后得出的语义类型）|
 
+
+
 ##### data
 
 | 字段名称   | 类型 | 说明  |
 | ------- | --- | :---:  |
-|time|结构2|一天当中三餐的集合|
+|day|String|时间:当类型为推荐时，day会返回序号，当类型为记录时，day返回的是日期|
+|meal|结构2|一天当中三餐的集合|
+|type|String|类型：(断食light、正常normal)|
 
 ##### 结构2
 
 | 字段名称   | 类型 | 说明  |
 | ------- | --- | :---:  |
-|breakfast|结构3|早餐|
-|lunch|结构3|午餐|
-|dinner|结构3|晚餐|
+|type|string|三餐标示，（早、 中、 午餐）|
+|data|结构3|食谱集合|
+
 
 
 ##### 结构3
