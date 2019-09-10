@@ -1080,7 +1080,7 @@ POST
 
 
 ##### 结构5
-| 字段名称   | 类型 | 说明 ： <mark>以下营养元素都为每100克的</mark> |
+| 字段名称   | 类型 | 说明  |
 | ------- | --- | :---:  |
 |value	|double| 元素值|
 |name	|string| 元素名称|
@@ -1343,7 +1343,7 @@ POST
 
 
 ##### 结构5
-| 字段名称   | 类型 | 说明 ： <mark>以下营养元素都为每100克的</mark> |
+| 字段名称   | 类型 | 说明  |
 | ------- | --- | :---:  |
 |value	|double| 元素值|
 |name	|string| 元素名称|
@@ -1352,7 +1352,25 @@ POST
 
 
 
+### 可返回的营养数据类型一览表
 
+| 字段名称   | 类型 | 说明  |
+| ------- | --- | :---:  |
+|calorie	|double|	卡路里|
+|protein	|double|	蛋白质|
+|carbohydrate|	double|	碳水化合物|
+|fat|	double|	脂肪|
+|dietaryFiber|	double|	膳食纤维|
+|na	|double|	钠|
+|ca	|double|	钙|
+|fe	|double|	铁|
+|niacin|	double|	烟酸|
+|cholesterol|	double|	胆固醇|
+|vitaminA	|double|	维生素A|
+|vitaminB1|	double	|维生素B1|
+|vitaminB2|	double	|维生素B2|
+|vitaminC	|double	|维生素C|
+|vitaminE|	double	|维生素E|
 
 
 本文档由 [@酷镜](http://www.cools.ai) 提供 
