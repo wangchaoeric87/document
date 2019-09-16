@@ -51,6 +51,56 @@ POST
                                 "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fae3d9057c3937719c.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=OYc9d9i6NVjIt5cI54w%2BMkLnWMw%3D",
                                 "name": "菜粥",
                                 "weight": 200,
+                                "cookStep": [
+                                    {
+                                        "position": 1,
+                                        "content": "准备好材料，西红柿顶部切十字花刀，放入锅中加适量水烧开，取出剥去皮切成小丁即可",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/4/a/d/600_4aacb18297e6999113e4ed2ce40db1dd.jpeg"
+                                    },
+                                    {
+                                        "position": 2,
+                                        "content": "面粉中放入少许盐搅拌均匀，鸡蛋打散后，取一个鸡蛋三分之一的蛋液，用于做面疙瘩，蛋液一点一点的淋入面粉中，同时另一个手用尖头筷子快速的搅拌，直到把碗中面粉搅拌成均匀的小颗粒",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/3/7/b/600_377ccb00110078dacf044d18a882478b.jpeg"
+                                    },
+                                    {
+                                        "position": 3,
+                                        "content": "锅中放油烧热后，倒入番茄块加一点点白糖用大火爆炒，炒到番茄起糊出沙",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/c/5/e/600_c595e02251423ec5366b72a664d73b4e.jpeg"
+                                    },
+                                    {
+                                        "position": 4,
+                                        "content": "倒入两碗清水，大火煮开，转中火煮几分钟，加盐调味",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/f/3/4/600_f35887599e03b1f1c414766f6372b6c4.jpeg"
+                                    },
+                                    {
+                                        "position": 5,
+                                        "content": "用筷子将面疙瘩一点点拨入锅中，边拨边用锅铲搅散，等感觉锅中有些稠度就可以了，保持锅中滚开状态，把蛋液由边缘往中心转圈淋入锅中，淋完立即用锅铲推开",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/7/d/8/600_7d914a000296434892c393142af3eeb8.jpeg"
+                                    },
+                                    {
+                                        "position": 6,
+                                        "content": "撒些白胡椒粉，淋些香油，出锅时撒些葱花，盛到碗中，是不是看上去很诱人呢",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/c/7/1/600_c704f63eb72ec6f3cdbfd52bc5f84011.jpeg"
+                                    },
+                                    {
+                                        "position": 7,
+                                        "content": "成品图～",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/8/9/9/600_89277a34a4048782672a58537503fdb9.jpeg"
+                                    },
+                                    {
+                                        "position": 8,
+                                        "content": "成品图～",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/b/e/e/600_be96f48244aa77ac459963c0fdebc75e.jpeg"
+                                    }
+                                ],
                                 "ingredients": [
                                     {
                                         "value": 120,
@@ -101,6 +151,56 @@ POST
                                 "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2fe5fde3d9057c39377441.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=wv3rU7407vz7vSX1XxEsJ581WYI%3D",
                                 "name": "桂花红糖小元宵",
                                 "weight": 150,
+                                "cookStep": [
+                                    {
+                                        "position": 1,
+                                        "content": "准备好材料，西红柿顶部切十字花刀，放入锅中加适量水烧开，取出剥去皮切成小丁即可",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/4/a/d/600_4aacb18297e6999113e4ed2ce40db1dd.jpeg"
+                                    },
+                                    {
+                                        "position": 2,
+                                        "content": "面粉中放入少许盐搅拌均匀，鸡蛋打散后，取一个鸡蛋三分之一的蛋液，用于做面疙瘩，蛋液一点一点的淋入面粉中，同时另一个手用尖头筷子快速的搅拌，直到把碗中面粉搅拌成均匀的小颗粒",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/3/7/b/600_377ccb00110078dacf044d18a882478b.jpeg"
+                                    },
+                                    {
+                                        "position": 3,
+                                        "content": "锅中放油烧热后，倒入番茄块加一点点白糖用大火爆炒，炒到番茄起糊出沙",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/c/5/e/600_c595e02251423ec5366b72a664d73b4e.jpeg"
+                                    },
+                                    {
+                                        "position": 4,
+                                        "content": "倒入两碗清水，大火煮开，转中火煮几分钟，加盐调味",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/f/3/4/600_f35887599e03b1f1c414766f6372b6c4.jpeg"
+                                    },
+                                    {
+                                        "position": 5,
+                                        "content": "用筷子将面疙瘩一点点拨入锅中，边拨边用锅铲搅散，等感觉锅中有些稠度就可以了，保持锅中滚开状态，把蛋液由边缘往中心转圈淋入锅中，淋完立即用锅铲推开",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/7/d/8/600_7d914a000296434892c393142af3eeb8.jpeg"
+                                    },
+                                    {
+                                        "position": 6,
+                                        "content": "撒些白胡椒粉，淋些香油，出锅时撒些葱花，盛到碗中，是不是看上去很诱人呢",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/c/7/1/600_c704f63eb72ec6f3cdbfd52bc5f84011.jpeg"
+                                    },
+                                    {
+                                        "position": 7,
+                                        "content": "成品图～",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/8/9/9/600_89277a34a4048782672a58537503fdb9.jpeg"
+                                    },
+                                    {
+                                        "position": 8,
+                                        "content": "成品图～",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/b/e/e/600_be96f48244aa77ac459963c0fdebc75e.jpeg"
+                                    }
+                                ],
                                 "ingredients": [
                                     {
                                         "value": 510,
@@ -158,6 +258,56 @@ POST
                                 "image": "http://kujingimage.oss-cn-beijing.aliyuncs.com/5d2d740b4cae020770863966.jpg?Expires=1563963595&OSSAccessKeyId=LTAI9QL9miIJuL3L&Signature=lOQFsVMTW3PHDu3gOCVf7thJtaI%3D",
                                 "name": "韭菜花炒猪肉",
                                 "weight": 70,
+                                "cookStep": [
+                                    {
+                                        "position": 1,
+                                        "content": "准备好材料，西红柿顶部切十字花刀，放入锅中加适量水烧开，取出剥去皮切成小丁即可",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/4/a/d/600_4aacb18297e6999113e4ed2ce40db1dd.jpeg"
+                                    },
+                                    {
+                                        "position": 2,
+                                        "content": "面粉中放入少许盐搅拌均匀，鸡蛋打散后，取一个鸡蛋三分之一的蛋液，用于做面疙瘩，蛋液一点一点的淋入面粉中，同时另一个手用尖头筷子快速的搅拌，直到把碗中面粉搅拌成均匀的小颗粒",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/3/7/b/600_377ccb00110078dacf044d18a882478b.jpeg"
+                                    },
+                                    {
+                                        "position": 3,
+                                        "content": "锅中放油烧热后，倒入番茄块加一点点白糖用大火爆炒，炒到番茄起糊出沙",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/c/5/e/600_c595e02251423ec5366b72a664d73b4e.jpeg"
+                                    },
+                                    {
+                                        "position": 4,
+                                        "content": "倒入两碗清水，大火煮开，转中火煮几分钟，加盐调味",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/f/3/4/600_f35887599e03b1f1c414766f6372b6c4.jpeg"
+                                    },
+                                    {
+                                        "position": 5,
+                                        "content": "用筷子将面疙瘩一点点拨入锅中，边拨边用锅铲搅散，等感觉锅中有些稠度就可以了，保持锅中滚开状态，把蛋液由边缘往中心转圈淋入锅中，淋完立即用锅铲推开",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/7/d/8/600_7d914a000296434892c393142af3eeb8.jpeg"
+                                    },
+                                    {
+                                        "position": 6,
+                                        "content": "撒些白胡椒粉，淋些香油，出锅时撒些葱花，盛到碗中，是不是看上去很诱人呢",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/c/7/1/600_c704f63eb72ec6f3cdbfd52bc5f84011.jpeg"
+                                    },
+                                    {
+                                        "position": 7,
+                                        "content": "成品图～",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/8/9/9/600_89277a34a4048782672a58537503fdb9.jpeg"
+                                    },
+                                    {
+                                        "position": 8,
+                                        "content": "成品图～",
+                                        "thumb": null,
+                                        "image": "http://cp1.douguo.net/upload/caiku/b/e/e/600_be96f48244aa77ac459963c0fdebc75e.jpeg"
+                                    }
+                                ],
                                 "ingredients": [
                                     {
                                         "value": 150,
@@ -1075,8 +1225,9 @@ POST
 |id|string|菜品id|
 |name|string|菜品名称|
 |image|string|菜品图片|
+|cookStep|结构6|菜品步骤|
 |weight|double|菜品重量|
-|ingredients|结构5|营养元素集合|
+|ingredients|结构5|营养元素集合| 
 
 
 ##### 结构5
@@ -1086,6 +1237,15 @@ POST
 |name	|string| 元素名称|
 |desc|	string|	元素名称(中文)|
 |unit|	string|	单位|
+
+
+##### 结构6
+| 字段名称   | 类型 | 说明  |
+| ------- | --- | :---:  |
+|position|int|步骤序号|
+|content|string|内容|
+|thumb|String|小图片|
+|image|String|大图图片|
 
 
 ### *2、语音分析菜品接口*
